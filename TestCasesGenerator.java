@@ -36,7 +36,7 @@ public class Main {
                 Collections.sort(list,Collections.reverseOrder());
             }
              System.out.println("Input is: "+list);
-        }else{
+        }else if(distinct_flag==0){
             
             ArrayList<Integer> list=new ArrayList<>();
             for(int i=0;i<numberOfTestCase;i++){
